@@ -5,8 +5,8 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Objects;
 
-public class Folder implements Comparable<Folder>{
-	
+public class Folder implements Comparable<Folder>,java.io.Serializable{
+	private static final long serialVersionUID = 1L;
 	private ArrayList<Note> notes;
 	private String name;
 
